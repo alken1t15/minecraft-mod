@@ -19,7 +19,6 @@ public class ModPaintings {
 //    private static final RegistryObject<PaintingVariant> SUNSET = PAINTING_VARIANTS.register("plant",
 //            () -> new PaintingVariant(32, 32));
 
-
     public static void register(IEventBus eventBus) {
         PAINTING_VARIANTS.register(eventBus);
     }

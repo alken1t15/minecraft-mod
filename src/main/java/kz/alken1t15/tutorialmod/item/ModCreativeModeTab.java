@@ -5,9 +5,9 @@ import net.minecraft.world.item.ItemStack;
 
 public class ModCreativeModeTab {
 
-    public static final CreativeModeTab TUTORIAL_TAB = new CreativeModeTab("tutorialtab"){
+    public static final CreativeModeTab TUTORIAL_TAB = new CreativeModeTab("tutorialtab") {
         @Override
-        public ItemStack makeIcon(){
+        public ItemStack makeIcon() {
             return new ItemStack(ModItems.ZIRCON.get());
         }
     };
